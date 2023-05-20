@@ -1,11 +1,16 @@
 import "./App.css";
-import HomePage from "./Components/Main/HomePage";
+import Footer from "./Components/Body/Footer";
+import Navbar from "./Components/Body/Navbar";
+import ContactUs from "./Components/Homepage/ContactUs";
 import HubSpot from "./Components/Main/HubSpot";
 
 function App() {
   return (
-    <div>
-      <HomePage />
+    <div className="hfeed site" id="page">
+      <Navbar />
+      <ContactUs />
+      <Footer />
+
       {/* <HubSpot/> */}
     </div>
   );
